@@ -18,6 +18,7 @@ import About from '../views/About'
 import Contact from '../views/Contact'
 
 import avatar from '../images/avatar.jpg'
+import iron from '../images/iron.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -38,7 +39,7 @@ const AboutHero = styled.div`
 `
 
 const Avatar = styled.img`
-  ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
+  ${tw`rounded-full w-32 xl:w-53 shadow-lg h-auto`};
 `
 
 const AboutSub = styled.span`
@@ -63,40 +64,46 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Salemm.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>
+          I'm creating noice web experiences for the next generation of consumers. I focus on creating web applications
+          that are functional and provide a pleasant user experience to its clients.
+        </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Vampires"
+            link="https://kainmaligno.github.io/Vampires/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my entry to code in IronHack create a full game from scratch. #JavaScript, #Canvas. You use
+            vampire Demitri to defeat a horde of mummies and zombies
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Guerra de puestos"
+            link=" https://github.com/kainmaligno/guerra"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            App Node.js, JavaScript, Handlebars, Express, MongoDb. We all have a food stand to recommend immortalize
+            your favorite place with description, photo, location on the map
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Poder Mexico"
+            link=" https://github.com/kainmaligno/PoderMexico"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            MERN The choice to fight against the big companies, present small businesses to the digital world, and let
+            the customer decide Salvador Emmanuel Juarez Granados. #Mongo #Express #React #Node #JavaScript
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Rick and morty"
+            link="https://github.com/kainmaligno/guerra"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A Rick and morty app will let you see all characters and keep some for you. #Mongo #Express #React #Node #JavaScript
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -104,17 +111,24 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
-          <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
-          </AboutSub>
+          <AboutSub>There is a saying that mentions, that the only way to be immortal is to leave a mark</AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          You know the way you feel when you see a picture of 300 spartans and feel powerfull? That's how you're must
+          feel every day. I would like to continue learning until I'm asleep. I have the best superpower of all...the will!.
+          I was born to motivating and make others grow. If I could, I'll be an anti-hero, kind of Wolverine or
+          Ghostrider. I'm a software engineer based in Mexico City. I enjoy web development, video games, eclectic
+          music, and keeping up with technology.
+
+        </AboutDesc>
+        <br/>
+        <AboutHero>
+          <Avatar src={iron} alt="second chance" />
+          <AboutSub>Why did you do Ironhack?</AboutSub>
+        </AboutHero>
+        <AboutDesc>
+          I joined Ironhack to explore my interest in problem-solving and develop technical skills that I could apply to
+          tangible projects. My soft skills, Communication, Self-starter, Transparency, Time management,Organization. 
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -122,8 +136,9 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://dribbble.com/LekoArts">Linkedin</a> &{' '}
+            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a> &{' '}
+            <a href="http://www.facebook.com/tylerkain.nomine">Facebook</a>
           </ContactText>
         </Inner>
         <Footer>
