@@ -67,9 +67,9 @@ const Index = () => (
           Hello, <br /> I'm Salemm.
         </BigTitle>
         <Subtitle>
-          I'm creating noice web experiences for the next generation of
-          consumers. I focus on creating web applications that are functional
-          and provide a pleasant user experience to its clients.
+          I'm a fullstack web developer, I focus on creating web applications
+          that are functional and provide a pleasant user experience for its
+          clients.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -80,33 +80,35 @@ const Index = () => (
             link="https://kainmaligno.github.io/Vampires/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to code in IronHack create a full game from
-            scratch. #JavaScript, #Canvas. You use vampire Demitri to defeat a
-            horde of mummies and zombies
+            This project is my entry to code at IronHack where we were expected
+            to create a full game from scratch. #JavaScript, #Canvas. You use
+            vampire Demitri to defeat a horde of mummies and zombies.
           </ProjectCard>
           <ProjectCard
             title="Guerra de puestos"
             link=" https://github.com/kainmaligno/guerra"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            App Node.js, JavaScript, Handlebars, Express, MongoDb. We all have a
-            food stand to recommend immortalize your favorite place with
-            description, photo, location on the map
+            App Node.js, JavaScript, Handlebars, Express, MongoDb. Users get to
+            share and recommend a food stand to others with a description,
+            photo, and location on the map
           </ProjectCard>
           <ProjectCard
             title="Poder Mexico"
             link=" https://github.com/kainmaligno/PoderMexico"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            MERN The choice to fight against the big companies, present small businesses to the digital world, and let 
-            the customer decide #Mongo #Express #React #Node #JavaScript
+            MERN. A tool to present small businesses to the digital world, fight
+            large corporations, and let the customer decide #Mongo #Express
+            #React #Node #JavaScript
           </ProjectCard>
           <ProjectCard
             title="Rick and morty"
             link="https://github.com/kainmaligno/guerra"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A Rick and morty app will let you see all characters and keep some for you. #Mongo #Express #React #Node #JavaScript
+            This Rick and Morty app will let you view all characters and keep
+            some for yourself. #Mongo #Express #React #Node #JavaScript
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -117,12 +119,12 @@ const Index = () => (
           <AboutSub>Why did you do Ironhack?</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I joined Ironhack to explore my interest in problem-solving and
-          develop technical skills that I could apply to tangible projects. My
-          soft skills, Communication, Self-starter, Transparency, Time
-          management,Organization.
+          I joined Ironhack to explore my interest in
+          problem-solving and to develop technical skills that I could apply to
+          tangible projects. My soft skills: Communication, Self-starter,
+          Transparency, Time management, Organization
         </AboutDesc>
-        <br/>
+        <br />
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
@@ -145,16 +147,25 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> in <a>s.e.jugr@gmail.com</a> or find me on other platforms:<br/>{' '}
-            <a href="https://www.linkedin.com/in/salvador-emmanuel-ju%C3%A1rez-granados-13604a117/">Linkedin</a> &{' '}
-            <a href="https://www.instagram.com/salemm_king/?hl=es-la">Instagram</a> &{' '}
-            <a href="http://www.facebook.com/tylerkain.nomine">Facebook</a>
+            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> in{" "}
+            <a>s.e.jugr@gmail.com</a> or find me on other platforms:
+            <br />{" "}
+            <a href="https://www.linkedin.com/in/salvador-emmanuel-ju%C3%A1rez-granados-13604a117/">
+              Linkedin
+            </a>{" "}
+            &{" "}
+            <a href="https://www.instagram.com/salemm_king/?hl=es-la">
+              Instagram
+            </a>{" "}
+            & <a href="http://www.facebook.com/tylerkain.nomine">Facebook</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. 
-          Made by <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Gatsby Starter Portfolio Cara.{" "}
+          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
+            Github Repository
+          </a>
+          . Made by <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
     </Parallax>
