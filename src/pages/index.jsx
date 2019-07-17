@@ -104,7 +104,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Rick and morty"
-            link="https://github.com/kainmaligno/guerra"
+            link="https://bitbucket.org/salemm2407/back-test/src/master/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This Rick and Morty app will let you view all characters and keep
@@ -119,10 +119,10 @@ const Index = () => (
           <AboutSub>Why did you do Ironhack?</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I joined Ironhack to explore my interest in
-          problem-solving and to develop technical skills that I could apply to
-          tangible projects. My soft skills: Communication, Self-starter,
-          Transparency, Time management, Organization
+          I joined Ironhack to explore my interest in problem-solving and to
+          develop technical skills that I could apply to tangible projects. My
+          soft skills: Communication, Self-starter, Transparency, Time
+          management, Organization
         </AboutDesc>
         <br />
         <AboutHero>
@@ -154,10 +154,10 @@ const Index = () => (
               Linkedin
             </a>{" "}
             &{" "}
-            <a href="https://www.instagram.com/salemm_king/?hl=es-la">
+            {/* <a href="https://www.instagram.com/salemm_king/?hl=es-la">
               Instagram
-            </a>{" "}
-            & <a href="http://www.facebook.com/tylerkain.nomine">Facebook</a>
+            </a>{" "} */}
+            {/* & <a href="http://www.facebook.com/tylerkain.nomine">Facebook</a> */}
           </ContactText>
         </Inner>
         <Footer>
