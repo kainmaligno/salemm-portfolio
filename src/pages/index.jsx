@@ -153,7 +153,7 @@ const Index = () => (
             <a href="https://www.linkedin.com/in/salvador-emmanuel-ju%C3%A1rez-granados-13604a117/">
               Linkedin
             </a>{" "}
-            &{" "}
+            {" "}
             {/* <a href="https://www.instagram.com/salemm_king/?hl=es-la">
               Instagram
             </a>{" "} */}
