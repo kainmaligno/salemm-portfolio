@@ -119,27 +119,18 @@ const Index = () => (
           <AboutSub>Why did you do Ironhack?</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I joined Ironhack to explore my interest in problem-solving and to
-          develop technical skills that I could apply to tangible projects. My
-          soft skills: Communication, Self-starter, Transparency, Time
-          management, Organization
+        I joined Ironhack to explore my interest in problem-solving and to develop technical skills that I could apply to tangible projects. My soft skills: Communication, Self-Starter, Transparency, Time Management, Organization
         </AboutDesc>
         <br />
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            There is a saying that mentions, that the only way to be immortal is
-            to leave a mark
+          There is a saying that mentions that the only way to be immortal is to leave a mark
+
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I would like to continue learning until I'm asleep. I have the best
-          superpower of all...the will!. I was born to motivating and make
-          others grow. If I could, I'll be an anti-hero, kind of Wolverine or
-          Ghostrider. I'm a software engineer based in Mexico City. I enjoy web
-          development, video games, eclectic music, and keeping up with
-          technology. You know the way you feel when you see a picture of 300
-          spartans and feel powerful? That's how you must feel every day!!
+        I would like to continue learning until I'm asleep. I have the best superpower of all...the will! I was born to motivate and make others grow. If I could, I would be an anti-hero, kind of Wolverine or Ghostrider. I'm a software engineer based in Mexico City. I enjoy web development, video games, eclectic music, and keeping up with technology. You know the way you feel when you see a picture of 300 spartans and feel powerful? That's how you must feel every day!
         </AboutDesc>
         <br />
       </About>
